@@ -2,6 +2,24 @@
 body,html{
     padding: 0;
     margin: 0;
+	#logo
+{
+	margin-top: 43px;
+	float: left;
+	width: 358px;
+}
+#rss
+{
+	margin-top: 43px;
+	float:left;
+	width:462px;
+}  
+            </div>
+        #menu
+{
+	width: 820px;
+	float: left;
+}
 }
 #logo a
 {
