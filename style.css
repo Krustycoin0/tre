@@ -3,6 +3,17 @@ body,html{
     padding: 0;
     margin: 0;
 }
+#logo a
+{
+    /* crea la superficie cliccabile*/
+	display: block;
+	width: 358px;
+	height:106px;
+	/* sposta il testo in modo da renderlo invisibile */
+	text-indent:-9999px;
+	/* visualizza l'immagine */
+	background: transparent url(immagini/logo.png) no-repeat 0 0;
+}
 nav{
     display: flex;
     align-items: center;
