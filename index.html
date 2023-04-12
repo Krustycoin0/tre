@@ -29,7 +29,17 @@ background-image:URL("https://cdn.dribbble.com/users/192882/screenshots/4659605/
 </body>
 </html>
          
-
+<'php
+foreach ($lingue as $k=>$v)
+   {
+      if ($k != $lingua)
+         {
+            ?>
+                <a href="?lingua=<?php echo $k; ?>"><img src="bandiere/<?php echo $flags[$k]; ?>.gif" alt="<?php echo $v; ?>" title="<?php echo $v; ?>" border="0" /></a>
+            <?php
+         }
+   }
+?>
 
         </div>
     <h1 id="logo"><a href="index.html" title="torna alla homepage">Lisprocoin.net</a></h1>
