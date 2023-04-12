@@ -1,4 +1,21 @@
-
+$lingue = array(1=>'Italiano', 'English', 'По-русски');
+$choose = array(1=>'Scegli la lingua', 'Choose language', 'Choose language');
+$flags = array(1=>'it', 'us', 'ru'); 
+   $lingua = @$_GET['lingua'];
+   if (!$lingua) $lingua = 1; // default italiano
+ 
+ switch ($lingua)
+      {
+         case 1:
+            include "lingue/it.php";
+            break;
+         case 2:
+            include "lingue/us.php";
+            break;
+         case 3:
+            include "lingue/ru.php";
+            break;
+      }
 body,html{
     padding: 0;
     margin: 0;
