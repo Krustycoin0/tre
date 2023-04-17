@@ -227,3 +227,34 @@ main{
     font-weight: 400;
     margin-left: 50px;
 }
+oni di Contatto CssCSS
+/* Start Bottoni di Contatto Css */
+ 
+.gowp-social-contact{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background: snow; */ /* Per Temi Dark */
+}
+ 
+.gowp-social-contact li{
+	padding: 0 3px;
+	margin: 0 3px;
+    display: block;
+	text-align: center;
+	border-radius: 50%;
+	transition: all 0.7s ease-in-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+ 
+.gowp-social-contact li:hover {transform: scale(1.1);}
+ 
+.gowp-social-contact li img{
+	width: 50%; 
+	height: auto;
+}
+ 
+/* End Bottoni di Contatto Css */
