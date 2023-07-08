@@ -38,42 +38,38 @@
     p {
       zoom: 200%;
     }
-	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    /* Stili di base */
-    body {
-      font-family: Arial, sans-serif;
+    html, body {
       margin: 0;
       padding: 0;
+      height: 100%;
     }
 
-    /* Stili per il layout responsivo */
     .container {
-      width: 0%;
-      max-width: 10px;
-      margin: 0 auto;
-      padding: 0px;
+      width: 100%;
+      height: 100%;
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
-    /* Media query per schermi di dimensioni ridotte */
-    @media (max-width: 0px) {
-      .container {
-        padding: 0px;
-      }
-    }
-
-    /* Media query per schermi di dimensioni medie */
-    @media (min-width: 0px) and (max-width: 1px) {
-      .container {
-        padding: 15px;
-      }
+    .content {
+      max-width: 600px;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <!-- Contenuto del tuo sito -->
-  </div>
+    <div class="content">
 </body>
   </style>
   <script>
