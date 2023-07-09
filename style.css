@@ -256,5 +256,154 @@ oni di Contatto CssCSS
 	width: 50%; 
 	height: auto;
 }
- 
+ /* Stile per il cellulare */
+@media only screen and (max-width: 480px) {
+  body, html {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #logo {
+    margin-top: 43px;
+    float: none;
+    width: 100%;
+  }
+  
+  #rss {
+    margin-top: 43px;
+    float: none;
+    width: 100%;
+  }
+  
+  #menu {
+    width: 100%;
+    float: none;
+  }
+  
+  #logo a {
+    display: block;
+    width: 100%;
+    height: 106px;
+    text-indent: -9999px;
+    background: transparent url(immagini/logo.png) no-repeat 0 0;
+    margin: 0;
+    padding: 0;
+    float: none;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    height: 53px;
+    position: fixed;
+    top: 0;
+    gap: 10px;
+    background-color: black;
+  }
+}
+
+/* Stile per il tablet */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Aggiungi qui le regole CSS per il tablet */
+}
+
+/* Stile per il PC */
+@media only screen and (min-width: 1025px) {
+  /* Aggiungi qui le regole CSS per il PC */
+  body, html {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #logo {
+    margin-top: 43px;
+    float: left;
+    width: 358px;
+  }
+  
+  #rss {
+    margin-top: 43px;
+    float: left;
+    width: 462px;
+  }
+  
+  #menu {
+    width: 820px;
+    float: left;
+  }
+  
+  #logo a {
+    display: block;
+    width: 358px;
+    height: 106px;
+    text-indent: -9999px;
+    background: transparent url(immagini/logo.png) no-repeat 0 0;
+  }
+}
+
+/* Aggiungi qui le regole CSS comuni a tutti i dispositivi */
+
+nav .logo svg {
+  width: 98px;
+  height: 30px;
+}
+
+header {
+  margin-bottom: 100px;
+}
+
+main {
+  text-align: center;
+}
+
+.selling-online,
+.sell-anywhere,
+.grow-faster,
+.manage-simply {
+  padding: 0px 40px;
+  margin-top: 30px;
+}
+
+.selling-online h2,
+.sell-anywhere h2,
+.grow-faster h2,
+.manage-simply h2 {
+  font-size: 45px;
+  color: #333333;
+  padding: 0px 25px;
+  letter-spacing: 1px;
+}
+
+.selling-online p,
+.sell-anywhere p,
+.fb-insta p,
+.grow-faster p,
+.manage-simply p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 24px;
+  color: #333333;
+  line-height: 38px;
+}
+
+.selling-online button,
+.sell-anywhere button,
+.grow-faster button,
+.manage-simply button {
+  background-color: #fae053;
+  color: #000000;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 15px 50px;
+  border: 1.5px solid white;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+.selling-online label {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #797979;
+  font-size: 18px;
+}
+
 /* End Bottoni di Contatto Css */
