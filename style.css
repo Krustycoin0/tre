@@ -1,83 +1,99 @@
-
-      }
-body,html{
+body,html {
     padding: 0;
     margin: 0;
-	#logo
-{
-	margin-top: 43px;
-	float: left;
-	width: 358px;
 }
-#rss
-{
-	margin-top: 43px;
-	float:left;
-	width:462px;
-}  
-            </div>
-        #menu
-{
-	width: 820px;
-	float: left;
+
+#logo {
+    margin-top: 43px;
+    float: left;
+    width: 100%;
 }
+
+#rss {
+    margin-top: 43px;
+    float: left;
+    width: 100%;
 }
-#logo a
-{
-    /* crea la superficie cliccabile*/
-	display: block;
-	width: 358px;
-	height:106px;
-	/* sposta il testo in modo da renderlo invisibile */
-	text-indent:-9999px;
-	/* visualizza l'immagine */
-	background: transparent url(immagini/logo.png) no-repeat 0 0;
-	#logo
-{
-	margin: 43px 0 0 0;
-	padding: 0;
-	float: left;
-	width: 358px; /* per il posizionamento flottante definiamo la larghezza */
+
+#menu {
+    width: 100%;
+    float: none;
 }
+
+#logo a {
+    display: block;
+    width: 100%;
+    height: auto; /* Cambiato da 106px a auto */
+    text-indent: -9999px;
+    background: transparent url(immagini/logo.png) no-repeat 0 0;
+    margin: 0;
+    padding: 0;
+    float: none;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
-    padding: 0px 0px;
+    padding: 0px 20px;
     height: 53px;
     position: fixed;
     top: 0;
-    gap: 60vw;
-    background-color: Black;
-    
+    gap: 10px;
+    background-color: black;
 }
-nav .logo svg{
+
+/* Rimuovere gli stili per le immagini del logo e dell'RSS qui se non sono necessari */
+
+/* Aggiungi i media query per il tablet e il PC se necessario */
+
+/* Stile comune per tutti i dispositivi */
+
+nav .logo svg {
     width: 98px;
     height: 30px;
 }
-header{
+
+header {
     margin-bottom: 100px;
 }
-main{
+
+main {
     text-align: center;
 }
-.selling-online, .sell-anywhere , .grow-faster, .manage-simply{
+
+.selling-online,
+.sell-anywhere,
+.grow-faster,
+.manage-simply {
     padding: 0px 0px;
     margin-top: 30px;
 }
-.selling-online h2, .sell-anywhere h2, .grow-faster h2, .manage-simply h2{
+
+.selling-online h2,
+.sell-anywhere h2,
+.grow-faster h2,
+.manage-simply h2 {
     font-size: 45px;
     color: #333333;
-    padding: 0px 0px;
+    padding: 0px 2px;
     letter-spacing: 1px;
 }
-.selling-online p , .sell-anywhere p, .fb-insta p, .grow-faster p, .manage-simply p{
+
+.selling-online p,
+.sell-anywhere p,
+.fb-insta p,
+.grow-faster p,
+.manage-simply p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 24px;
     color: #333333;
     line-height: 38px;
 }
-.selling-online button,.sell-anywhere button, .grow-faster button, .manage-simply button{
+
+.selling-online button,
+.sell-anywhere button,
+.grow-faster button,
+.manage-simply button {
     background-color: #fae053;
     color: #000000;
     font-size: 20px;
@@ -87,323 +103,10 @@ main{
     border-radius: 16px;
     margin-bottom: 15px;
 }
-.selling-online label{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #797979;
-    font-size: 18px;
-}
-.main-icons{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 160px;
-    padding: 70px 40px;
-}
-.main-icons p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #797979;
-    font-size: 18px;
-}
-.main-icons .crowd{
-    position: relative;
-    top: 100px;
-}
-.sell-anywhere h2, .sell-anywhere p,.grow-faster h2, .grow-faster p, .manage-simply h2, .manage-simply p{
-    text-align: left;
-    padding-left: 0px;
-}
-.sell-anywhere button{
-    background-color: #f1b280;
-    margin-bottom: 60px;
-    width: 300px;
-}
-.fb-insta, .google, .fb,.payement, .shipping{
-    text-align: left;
-    padding: 30px 30px;
-}
-.story{
-    background-color: #f1b280;
-    margin: 30px;
-    padding: 30px 50px;
-    text-align: left;
-    border-radius: 20px;
-    border: 2px solid red;
-}
-.story p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 24px;
-    color: #333333;
-    line-height: 35px;
-}
-.story h6{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-}
-.story .person{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.story .person img{
-    width: 60px;
-    height: 60px;
-}
-
-.grow-faster button{
-    background-color: #68e5a2;
-    width: 360px;
-    border-radius: 30px;
-    margin: 30px 0;
-}
-.google h6, .fb h6{
-    font-size: 28px;
-    margin: 15px 0;
-}
-.google p, .fb p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 24px;
-    color: #333333;
-    line-height: 35px;
-    margin: 0;
-}
-#Pamela-Strydom{
-    background-color: #68e5a2;
-}
-.manage-simply button{
-    width: 360px;
-    background-color: rgb(57,91,224);
-    color: yellow;
-    border-radius: 30px;
-    margin: 30px 0;
-}
-.payement h6, .shipping h6{
-    font-size: 28px;
-    margin: 15px 0;
-}
-.payement p, .shipping p, .around-world h2, .around-world p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 24px;
-    color: #333333;
-    line-height: 35px;
-    margin: 0;
-}
-#Benjamin-Scott{
-    background-color: rgb(57,91,224);
-    color: green;
-}
-#Benjamin-Scott p{
-    color: yellow;
-}
-.cards{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2fr, 1fr, 1fr);
-    gap: 20px;
-}
-.around-world{
-    grid-row: 1/2;
-    border: 2px solid white;
-    border-radius: 20px;
-    margin: 0px 26px;
-    padding: 20px 40px;
-    text-align: left;
-    
-}
-.stats{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    justify-content: space-evenly;
-    margin: 30px 0px;
-    
-}
-.stats p{
-    font-size: 44px;
-    font-weight: 800;
-    color: white;
-}
-.stats span{
-    font-size: 22px;
-    font-weight: 400;
-    margin-left: 50px;
-}
-oni di Contatto CssCSS
-/* Start Bottoni di Contatto Css */
- 
-.gowp-social-contact{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/* background: snow; */ /* Per Temi Dark */
-}
- 
-.gowp-social-contact li{
-	padding: 0 3px;
-	margin: 0 3px;
-    display: block;
-	text-align: center;
-	border-radius: 50%;
-	transition: all 0.7s ease-in-out;
-	box-shadow: 0 10px 10px rgba(0,0,0,0.1);
-}
- 
-.gowp-social-contact li:hover {transform: scale(1.1);}
- 
-.gowp-social-contact li img{
-	width: 50%; 
-	height: auto;
-}
- /* Stile per il cellulare */
-@media only screen and (max-width: 480px) {
-  body, html {
-    padding: 0;
-    margin: 0;
-  }
-  
-  #logo {
-    margin-top: 43px;
-    float: none;
-    width: 100%;
-  }
-  
-  #rss {
-    margin-top: 43px;
-    float: none;
-    width: 100%;
-  }
-  
-  #menu {
-    width: 100%;
-    float: none;
-  }
-  
-  #logo a {
-    display: block;
-    width: 100%;
-    height: 106px;
-    text-indent: -9999px;
-    background: transparent url(immagini/logo.png) no-repeat 0 0;
-    margin: 0;
-    padding: 0;
-    float: none;
-  }
-  
-  nav {
-    display: flex;
-    align-items: center;
-    padding: 0px 20px;
-    height: 53px;
-    position: fixed;
-    top: 0;
-    gap: 10px;
-    background-color: black;
-  }
-}
-
-/* Stile per il tablet */
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
-  /* Aggiungi qui le regole CSS per il tablet */
-}
-
-/* Stile per il PC */
-@media only screen and (min-width: 1025px) {
-  /* Aggiungi qui le regole CSS per il PC */
-  body, html {
-    padding: 0;
-    margin: 0;
-  }
-  
-  #logo {
-    margin-top: 43px;
-    float: left;
-    width: 358px;
-  }
-  
-  #rss {
-    margin-top: 43px;
-    float: left;
-    width: 462px;
-  }
-  
-  #menu {
-    width: 820px;
-    float: left;
-  }
-  
-  #logo a {
-    display: block;
-    width: 358px;
-    height: 106px;
-    text-indent: -9999px;
-    background: transparent url(immagini/logo.png) no-repeat 0 0;
-  }
-}
-
-/* Aggiungi qui le regole CSS comuni a tutti i dispositivi */
-
-nav .logo svg {
-  width: 98px;
-  height: 30px;
-}
-
-header {
-  margin-bottom: 100px;
-}
-
-main {
-  text-align: center;
-}
-
-.selling-online,
-.sell-anywhere,
-.grow-faster,
-.manage-simply {
-  padding: 0px 0px;
-  margin-top: 30px;
-}
-
-.selling-online h2,
-.sell-anywhere h2,
-.grow-faster h2,
-.manage-simply h2 {
-  font-size: 45px;
-  color: #333333;
-  padding: 0px 2px;
-  letter-spacing: 1px;
-}
-
-.selling-online p,
-.sell-anywhere p,
-.fb-insta p,
-.grow-faster p,
-.manage-simply p {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 24px;
-  color: #333333;
-  line-height: 38px;
-}
-
-.selling-online button,
-.sell-anywhere button,
-.grow-faster button,
-.manage-simply button {
-  background-color: #fae053;
-  color: #000000;
-  font-size: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding: 15px 15px;
-  border: 1.5px solid white;
-  border-radius: 16px;
-  margin-bottom: 15px;
-}
 
 .selling-online label {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #797979;
-  font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #797979;
+    font-size: 18px;
 }
 
-/* End Bottoni di Contatto Css */
