@@ -41,6 +41,18 @@
     p {
       font-size: 1.5em;
     }
+
+    /* Aggiungi media query per il cellulare */
+    @media only screen and (max-width: 480px) {
+      #logo {
+        width: 100px; /* Riduci la larghezza del logo */
+      }
+
+      img {
+        max-width: 100%; /* Fai sì che tutte le immagini si adattino alla larghezza dello schermo */
+        height: auto; /* Mantieni l'aspetto proporzionale delle immagini */
+      }
+    }
     </style>
   
   <script>
